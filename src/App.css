@@ -1,38 +1,834 @@
-.App {
-  text-align: center;
+@media only screen and (min-width: 770px) {
+  .homes-headers img{
+    width: 10%;
+  }
+  .home-container{
+    flex-direction: row;
+  }
+  .header{
+    height: 120vh;
+  }
+  .home-left {
+    width: 50%;
+  }
+  .common-btn{
+    width: 20%;
+  }
+  .daimond-main {
+    flex-direction: row;
+  }
+  .gold-main {
+    flex-direction: row;
+    position: relative;
+    bottom: 80px;
+  }
+  .silver-main {
+    flex-direction: row;
+    position: relative;
+    bottom: 80px;
+  }
+  .daimond-left {
+    width: 50%;
+}
+.gold-right{
+  width: 50%;
+}
+.silver-left{
+  width: 50%;
+}
+.gold-right-image video {
+  left: 160px;
+}
+.daimond-right {
+  width: 50%;
+  height: 260px;
+}
+.daimond-right p{
+  width: 50%;
+}
+.silver-right {
+  width: 50%;
+  height: 260px;
+}
+.silver-right p{
+  width: 66%;
+}
+.gold-left {
+  width: 50%;
+  height: 260px;
+}
+.gold-left p{
+  width: 64%;
+}
+.works {
+  height: 180vh;
+}
+.headline {
+  height: 200px;
+}
+.diya2 {
+  transform: rotate(-90deg);
+  width: 16%;
+  height: 258px;
+}
+.diya5 {
+  width: 10%;
+  height: 144px;
+}
+.diya {
+  width: 13%;
+  height: 101px;
+}
+.diya-1{
+  width: 19%;
+    height: 144px;
+}
+.diya2-1{
+  transform: rotate(90deg);
+  width: 16%;
+    height: 258px;
+}
+.diya5-1{
+  width: 10%;
+  height: 144px;
+}
+.fheader{
+  height: 20vh;
+}
+.footer-conatiner{
+    bottom: 400px;
+    padding: 60px;
+}
+.footer-layout{
+  width: 80%;
+  height: 260px;
+}
+.footer-img img{
+  width: 189%;
+  height: 260px;
+  right: 240px;
+  bottom: 65px;
+}
+.footer-icon{
+    height: 100px;
+    gap: 16px;
+}
+.footer-icons{
+  gap: 15px;
+}
+.footer-icons svg{
+  width: 40px;
+  height: 55px;
+}
+.footer-socials{
+    width: 40%;
+    height: 260px;
+    left: 150px;
+}
+.footer-conatiner {
+  left: 180px;
+}
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+@media only screen and (max-width: 769px) {
+  .homes-headers img{
+    width: 20%;
+  }
+  .home-container{
+    flex-direction: column;
+  }
+  .header {
+    height: 170vh;
+  }
+  .home-left {
+    width: 100%;
+  }
+  .about {
+    background-color: rgba(203, 171, 232, 0.521);
+    height: 220vh;
+    position: relative;
+    padding-top: 174px;
+  }
+  .home .common-btn{
+    width: 125px;
+    position: relative;
+    bottom: 34px;
+  }
+  .about .common-btn{
+    width: 125px;
+    position: relative;
+    bottom: 34px;
+  }
+  .daimond-main {
+    flex-direction: column;
+    gap: 50px;
+  }
+  .gold-main {
+    flex-direction: column-reverse;
+    position: relative;
+    bottom: 100px;
+  }
+  .silver-main {
+    flex-direction: column;
+    gap: 50px;
+    position: relative;
+    bottom: 134px;
+  }
+  .daimond-left {
+    width: 100%;
+}
+.gold-right{
+  width: 100%;
+}
+.silver-left{
+  width: 100%;
+}
+.gold-right-image video {
+  left: 94px;
+  border-radius: 32px;
+  box-shadow: 10px 10px 10px 10px;
+}
+.daimond-right {
+  width: 120%;
+  height: 214px;
+}
+.daimond-right h2{
+  font-size: 16px;
+    width: 88%
+}
+.daimond-right p{
+  width: 58%;
+  font-size: 12px;
+}
+.daimond-image video {
+  border-radius: 32px;
+  box-shadow: 10px 10px 10px 10px;
+}
+.silver-right {
+  width: 120%;
+  height: 214px;
+}
+.silver-right h2{
+  font-size: 16px;
+    width: 88%
+}
+.silver-right p{
+  width: 58%;
+  font-size: 12px;
+}
+.silver-image video{
+  border-radius: 32px;
+  box-shadow: 10px 10px 10px 10px;
+}
+.gold-left {
+  width: 120%;
+  height: 214px;
+}
+.gold-left h2{
+  font-size: 16px;
+}
+.gold-left p{
+  width: 58%;
+  font-size: 12px;
+}
+.works {
+  height: 250vh;
+  position: relative;
+  bottom: 140px;
+}
+.headline {
+  height: 100px;
+}
+.diya2 {
+  transform: rotate(-180deg);
+  width: 14%;
+  height: 118px;
+  right: -46px;
+  position: relative;
+}
+.diya5 {
+  width: 20%;
+  height: 82px;
+  position: relative;
+    right: -11px;
+}
+.diya {
+  width: 13%;
+  height: 101px;
+}
+.diya-1 {
+  transform: scalex(-1);
+  width: 15%;
+  height: 103px;
+}
+.diya5-1 {
+  width: 20%;
+  height: 82px;
+  position: relative;
+    right: 16px;
+}
+.diya2-1 {
+  transform: rotate(180deg);
+  width: 14%;
+  height: 118px;
+  position: relative;
+  right: 47px;
+}
+.footer {
+  height: 78vh;
+}
+.footer-conatiner{
+  bottom: 365px;
+}
+.footer-layout{
+  height: 345px;
+}
+.footer-img img{
+  width: 121%;
+  height: 190px;
+  right: -37px;
+    bottom: -28px;
+}
+.footer-icon{
+  height: 0px;
+  position: relative;
+    bottom: 170px;
+}
+.footer-icon h3{
+  font-size: 12px;
+}
+.footer-icons{
+  gap: 6px;
+}
+.footer-icons svg {
+  width: 15px;
+  height: 18px;
+}
+.footer-socials{
+  height: 167px;
+  right: 13px;
+  top: 38px;
+}
+.footer-socials h2{
+  font-size: 12px;
+}
+.footer-socials span{
+  font-size: 10px;
+}
+.fheader {
+  position: relative;
+  bottom: 140px;
+}
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+
+
+body{
+  padding: 0;
+  margin: 0;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  font-family: 'Times New Roman', Times, serif;
+}
+.home-headers{
+  background-image: linear-gradient(45deg,rgb(9,81,81) 0%,rgba(35,132,141,0.88) 48%,rgb(134,201,186) 87%);
+  justify-content: center;
+  display: flex;
+  background-image: url("/src/images/ftbg1.jpg");
+}
+.homes-headers img{
+  height: 80%;
+}
+.homes-headers{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 55px;
+  padding: 10px;
+  align-items: center;
+}
+.homes-headers ul{
+  display: flex;
+    justify-content: space-between;
+    list-style: none;
+    color: white;
+    align-items: center;
+    flex-wrap: inherit;
+}
+.homes-headers ul li{
+  margin: 0 10px;
+}
+.homes-headers ul li a{
+  color: white;
+  font-size: 25px;
+}
+.carousel-item{
+  height: 100%;
+}
+.homes-headers ul li:hover{
+    transform: scale(1.2)
+} 
+/* ----------------------------HOME------------------------- */
+.home{
+  background-image: linear-gradient(to right, pink , white);
+  background-size: 200% 100%;
+  animation: gradientAnimation2 2s linear infinite alternate;
+  
+}
+.about{
+  background-color: rgba(203, 171, 232, 0.521);
+}
+/* ---------------------COOMOM--------------------------- */
+.header{
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.home-container{
+  display: flex;
+  padding: 36px;
+  justify-content: space-around;
+}
+.own-img{
+  position: relative;
+ 
+}
+/* .img-shadow{
+  background-color: blue;
+    border-radius: 50%;
+    height: 181px;
+    width: 318px;
+} */
+.img-shadow img{
+  width: 100%;
+  height: 416px;
+  border-radius: 10px 60px 10px 60px;
+  box-shadow: 20px 20px 10px 10px rgba(4, 99, 79, 0.18);
+  position: relative;
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+@keyframes up-down{
+  0%{
+    transform: translatey(28px);
+  }
+  100%{
+    transform: translatey(-28px);
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.home-left h4{
+  margin: 0;
+}
+.home-left p{
+  margin: 10px;
+}
+.common-btn{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+  height: 40px;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 50px;
+    border-radius: 40px 20px 40px 20px;
+    border-style: none;
+    background: linear-gradient(to right, rgb(3, 149, 239), #3ad2ca);
+    color: white;
+    cursor: pointer;
+    background-size: 200% 100%;
+    animation: gradientAnimation7 1s linear infinite alternate
+}
+a{
+  text-decoration: none;
+}
+/* ------------------------------FOOTER----------------------------- */
+.fheader {
+  width: 100%;
+  height: 250px;
+}
+.footerimg{
+ border-radius: 1px 95px 1px 95px;
+ width: 100%;
+ height: 80vh;
+}
+.footer-conatiner{
+  position: relative;
+    display: flex;
+    align-items: center;
+}
+.footer-layout{
+  display: flex;
+  color: white;
+  align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.580);
+    border-radius: 1px 95px 1px 95px;
+}
+.footer-img img{
+  position: relative;
+  box-shadow: 10px 10px 10px 10px;
+  border-radius: 1px 95px 1px 95px;
+}
+.footer-icon{
+  flex-direction: column;
+    display: flex;
+}
+@keyframes waveAnimation {
+  0% {
+    transform: scaleY(0.4);
+  }
+
+  50% {
+    transform: scaleY(1);
+  }
+
+  100% {
+    transform: scaleY(0.4);
+  }
+}
+.footer-icons{
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+.footer-icons svg{
+  box-shadow: 0 0px 2px rgb(0 0 0 / 40%), inset 0 0px 1px rgb(0 0 0 / 30%), 0 1px 2px rgb(0 0 0 / 60%), 0 4px 2px rgb(0 0 0 / 20%), 0 9px 4px rgb(0 0 0 / 10%), inset 0 2px 1px #ffffff8c;
+  animation: waveAnimation 3s linear infinite;
+}
+.footer-socials{
+  display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: 20px;
+}
+.footer-socials span{
+  display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.call{
+  color: darkgreen;
+}
+.location{
+  color: darkgreen;
+}
+.earth{
+  color: skyblue;
+}
+.faceb{
+  color: blue;
+    background-color: rgba(144, 172, 208, 0.2);
+    display: inline-block;
+    border-radius: 30% 70% 70% 30% / 56% 39% 61% 44%;
+    padding: 1rem 1rem;
+    position: relative;
+}
+.instra{
+    color: #7790f7;
+    background-color: rgba(144, 172, 208, 0.2);
+    display: inline-block;
+    border-radius: 30% 70% 70% 30% / 56% 39% 61% 44%;
+    padding: 1rem 1rem;
+    position: relative;
+}
+
+.whatsapp{
+  color: green;
+    background-color: rgba(144, 172, 208, 0.2);
+    display: inline-block;
+    border-radius: 30% 70% 70% 30% / 56% 39% 61% 44%;
+    padding: 1rem 1rem;
+    position: relative;
+}
+/* ------------------------WORK------------------------------- */
+.works{
+  background: url(./images/thali.jpg);
+  background-size: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
+  transition: all 0.7s linear;
+  text-align: center;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #708bf5f7;
+  opacity: 0.7;
+}
+.works-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.works-container h1 {
+  margin-bottom: 35px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.works-container span {
+  color: rgb(13, 121, 121);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.works-container p {
+  color: white;
+  margin-bottom: 14px;
+}
+
+.works-container button {
+  height: 54px;
+    width: 100%;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 40px 20px 40px 20px ;
+  position: relative;
+  top: 10px;
+  border-style: none;
+  background: linear-gradient(to right, rgb(3, 149, 239), #3ad2ca);
+  color: white;
+  cursor: pointer;
+  background-size: 200% 100%;
+  animation: gradientAnimation7 1s linear infinite alternate;
+}
+
+@keyframes gradientAnimation7 {
+  0% {
+    background-position: 100% 0;
   }
-  to {
-    transform: rotate(360deg);
+
+  100% {
+    background-position: 0 0;
   }
+}
+.works-container button:hover {
+  color: rgba(160, 63, 152, 0.196);
+}
+/* -------------------------CONTACTs------------------------------ */
+.contacts{
+ margin-bottom: -116px;
+}
+.contact{
+  width: 100%;
+  height: 100%;
+
+}
+.contact-container img{
+  position: relative;
+  width: 52%;
+    height: 550px;
+    left: 550px;
+    top: 154px;
+    box-shadow: -322px -205px 0px -114px rgba(4, 99, 79, 0.18);
+}
+.contact-main {
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  z-index: 1;
+  box-shadow: -12px 17px 20px 0 rgba(0,0,0,0.4);
+  top: -268px;
+  left: 140px;
+  position: relative;
+  width: 40%;
+  height: 50%;
+}
+.contact-main form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 500px;
+}
+.contact-main input {
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 15px;
+  border: none;
+  border: none;
+  background-color: transparent;
+  border-bottom: 2px solid black;
+  width: 280px;
+}
+.textarea {
+  border: none;
+  background-color: transparent;
+  border-bottom: 2px solid black;
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 17px;
+  width: 281px;
+  height: 67px;
+}
+.c-btn{
+  display: flex;
+  align-items: center;
+  height: 54px;
+    width: 100%;
+    font-size: 25px;
+    padding: 30px;
+    border-radius: 40px 20px 40px 20px;
+    position: relative;
+    top: 10px;
+    border-style: none;
+    background: linear-gradient(to right, rgb(3, 149, 239), #3ad2ca);
+    color: white;
+    cursor: pointer;
+    background-size: 200% 100%;
+    animation: gradientAnimation7 1s linear infinite alternate;
+}
+/* ---------------------------SERVICE H----------------------------- */
+.serviceh{
+  position: relative;
+  z-index: 1;
+}
+.serviceh-img img{
+  width: 100%;
+  height: 200px;
+  box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.4);
+}
+.headline{
+  background-color: rgba(236, 114, 33, 0.406);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* .headline img{
+  width: 10%;
+  height: 60px;
+} */
+.serviceh-layout{
+  display: flex;
+  flex-flow: row wrap;
+  gap: 40px;
+  margin: 20px;
+  justify-content: center;
+}
+.serviceh-img{
+  cursor: pointer;
+    overflow: hidden;
+    position: relative;
+    width: calc(24% - 5px);
+    background-color: rgba(0,0,9,.05);
+    padding: 14px;
+}
+.diya-1{
+  transform: scalex(-1);
+}
+.diya5-1{
+  transform: scalex(-1); 
+}
+/* ---------------------------------DAIMOND------------------------- */
+.daimond-main{
+  display: flex;
+  padding: 56px;
+    align-items: center;
+    justify-content: center;
+}
+.daimond-image video{
+  width: 82%;
+}
+.daimond-image{
+display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.daimond-right{
+  background-color: pink;
+  border-radius: 58px 40pc 58px;
+  box-shadow: 10px 10px 19px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right, pink , white);
+    background-size: 200% 100%;
+    animation: gradientAnimation2 2s linear infinite alternate;
+}
+@keyframes gradientAnimation2 {
+  0% {
+    background-position: 100% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+/* ==============================GOLD================================ */
+.gold-main{
+  display: flex;
+  padding: 56px;
+    align-items: center;
+    justify-content: center;
+}
+.gold-right-image video{
+  width: 50%;
+  transform: rotate(90deg);
+  position: relative;
+}
+.gold-right-image{
+  display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+.gold-left{
+  border-radius: 858px 67px 40pc 58px;
+  box-shadow: 10px 10px 19px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right, pink , white);
+    background-size: 200% 100%;
+    animation: gradientAnimation2 2s linear infinite alternate;
+}
+.gold-left p{
+  position: relative;
+  bottom: 20px;
+}
+
+/* ============================SILVER================================ */
+.silver-main{
+  display: flex;
+  padding: 56px;
+    align-items: center;
+    justify-content: center;
+}
+.silver-image video{
+  width: 82%;
+  
+}
+.silver-image{
+  display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+.silver-right{
+  border-radius: 58px 40pc 58px;
+  box-shadow: 10px 10px 19px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right, pink , white);
+    background-size: 200% 100%;
+    animation: gradientAnimation2 2s linear infinite alternate;
+}
+.silver-right p{
+  position: relative;
+  bottom: 27px;
+  left: 15px;
 }
